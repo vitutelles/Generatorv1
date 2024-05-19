@@ -1,0 +1,57 @@
+/* Estilos CSS aqui */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('background-image.jpg');
+    background-size: cover; /* Faz com que a imagem cubra todo o espaço do corpo */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+}
+
+/* Estilos para o contêiner principal */
+div {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo com opacidade */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+    text-align: center;
+}
+
+/* Estilos para o rótulo e botão */
+label, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o campo de entrada */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para o botão */
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o span */
+span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
