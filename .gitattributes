@@ -1,2 +1,1 @@
-electron/ filter=lfs diff=lfs merge=lfs -text
-electron/*.psd filter=lfs diff=lfs merge=lfs -text
+electrelectron.exe/*.psd filter=lfs diff=lfs merge=lfs -text
